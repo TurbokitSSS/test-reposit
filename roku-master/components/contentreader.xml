@@ -6,7 +6,7 @@
 
   <interface>
     <field id = "contenturi" type = "uri" />
-    <label></label>
+    <label>hjhkhhkj</label>
     <field id = "content" type = "node" />
   </interface>
 
