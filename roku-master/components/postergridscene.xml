@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name = "PosterGridExample" extends = "Scene" initialFocus = "examplePosterGrid" >
+
+  <script type = "text/brightscript"  uri = "postergridscene.brs"></script>
+
+  <children>
+
+    <PosterGrid 
+      id = "examplePosterGrid" 
+      basePosterSize = "[ 256, 256 ]" 
+      caption1NumLines = "3" 
+      numColumns = "4" 
+      numRows = "3" 
+      itemSpacing = "[ 120, 120 ]" />
+
+  </children>
+
+</component>
